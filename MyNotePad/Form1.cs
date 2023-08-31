@@ -29,5 +29,12 @@ namespace MyNotePad
         {
 
         }
+
+        private void 저장ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Filter = "텍스트 파일(*.txt)|*.txt";
+            saveFileDialog1.ShowDialog(this);
+            File.WriteAllText(saveFileDialog1.FileName, textBox1.Text);
+        }
     }
 }
