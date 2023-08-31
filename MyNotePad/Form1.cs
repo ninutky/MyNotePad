@@ -41,5 +41,12 @@ namespace MyNotePad
         {
             Application.Exit();
         }
+
+        private void 마이메모장정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("제작자: 박나경\n제작일: 2023.08.31목",
+                "마이메모장 정보", MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+        }
     }
 }

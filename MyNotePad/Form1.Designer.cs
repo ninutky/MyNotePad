@@ -107,6 +107,7 @@ namespace MyNotePad
             this.마이메모장정보ToolStripMenuItem.Name = "마이메모장정보ToolStripMenuItem";
             this.마이메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.마이메모장정보ToolStripMenuItem.Text = "마이메모장 정보";
+            this.마이메모장정보ToolStripMenuItem.Click += new System.EventHandler(this.마이메모장정보ToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
