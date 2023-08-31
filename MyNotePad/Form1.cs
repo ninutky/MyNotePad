@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MyNotePad
 {
-    public partial class Form1 : Form
+    public partial class 마이메모장 : Form
     {
-        public Form1()
+        public 마이메모장()
         {
             InitializeComponent();
         }
